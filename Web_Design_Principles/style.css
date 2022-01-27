@@ -1,0 +1,136 @@
+.body {
+  font-family: montserrat;
+}
+
+.bar {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.829),
+    rgba(25, 0, 255, 0)
+  );
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  position: absolute;
+  z-index: 5;
+  font-family: montserrat;
+  padding: 20px;
+  transition: 0.5s;
+}
+
+/*navigation*/
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.dropdown-menu {
+  display: none;
+  margin: 10px;
+}
+.dropdown-menu a {
+  display: block;
+  padding: 10px;
+  transition: 0.5s;
+}
+
+.bar .home {
+  color: white;
+  padding: 20px;
+}
+.bar:first-of-type:hover .dropdown-menu {
+  display: block;
+}
+
+.bar a:hover {
+  color: chartreuse;
+  background-color: rgba(0, 0, 0, 0.349);
+}
+/*background*/
+.background {
+  position: relative;
+  z-index: 2;
+}
+.background > img {
+  height: 720px;
+  position: relative;
+}
+
+.background h1 {
+  color: white;
+  position: absolute;
+  z-index: 2;
+  top: 140px;
+  left: 50px;
+  font-family: montserrat;
+  font-weight: 300;
+  font-size: 45px;
+  transition-duration: 1s;
+}
+.background p {
+  position: absolute;
+  font-family: montserrat;
+  color: white;
+  top: 250px;
+  left: 50px;
+  width: 500px;
+  line-height: 1.8;
+  background-color: rgba(0, 0, 0, 0.582);
+  border-radius: 5px;
+  padding: 5px;
+}
+#button {
+  position: absolute;
+  color: white;
+  top: 450px;
+  left: 50px;
+  font-family: montserrat;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 5px;
+}
+#button:hover {
+  color: black;
+  background-color: white;
+  transition: 0.5s;
+}
+
+/*footer section*/
+.footer {
+  padding: 10px 0 10px 0;
+  background-color: black;
+}
+.btn a,
+.btn_two a {
+  color: white;
+  padding: 20px;
+}
+.btn {
+  width: 100px;
+  display: inline-block;
+  padding: 10px;
+  border: solid 1px white;
+  border-radius: 5px;
+  margin-left: 40px;
+}
+
+.btn_two {
+  width: 100px;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 5px;
+  border: solid 1px white;
+}
+
+.btn:hover,
+.btn_two:hover {
+  background-color: white;
+  color: black;
+  transition: 0.5s;
+}
+
+.btn a:hover,
+.btn_two a:hover {
+  color: black;
+  transition: 0.5s;
+}
